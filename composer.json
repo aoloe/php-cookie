@@ -1,0 +1,27 @@
+{
+    "name": "aoloe/php-cookie",
+    "type": "library",
+    "description": "simplest php based cookie engine",
+    "keywords": [
+        "php",
+        "cookie"
+    ],
+    "homepage": "https://github.com/aoloe/php-cookie",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ale Rimoldi",
+            "email": "ale@ideale.ch",
+            "homepage": "http://ideale.ch",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aoloe\\": "src"
+        }
+    }
+}
