@@ -1,4 +1,7 @@
 <?php
+
+namespace Aoloe;
+
 class Cookie {
     public static function factory() {return new Cookie();}
     public function set($name, $value, $time = null) {
